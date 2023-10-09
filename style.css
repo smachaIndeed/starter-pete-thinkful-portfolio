@@ -9,6 +9,12 @@ body {
 }
 
 /* Headings */
+header h1{
+  flex:1;
+  font-family: "Playfair Display", Times, serif;
+  text-align: right;
+}
+
 h1,
 h2,
 h3 {
@@ -50,6 +56,12 @@ a:link {
 a:hover {
   color: #f77f00;
 }
+header nav {
+  flex:1;
+  margin-top: 35px;
+  margin-left:20px;
+  text-align: left;
+}
 
 nav a {
   padding-left: 20px;
@@ -75,4 +87,26 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.flex_section{
+  display: flex;
+  flex-direction: row;
+}
+
+.content_flex{
+  flex:1;
+}
+
+.left{
+  text-align: left;
+}
+
+.portfolio_description{
+  text-align: center;
+  font-size: 14px;
+}
+
+.portfolio{
+  margin : 5px;
 }
